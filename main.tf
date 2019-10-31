@@ -47,5 +47,5 @@ resource "google_cloudbuild_trigger" "filename-trigger" {
       branch = "master"
     }
   }
-  filename = "deploy.yaml"
+  filename = "cloudbuild.yaml"
 }
